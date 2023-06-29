@@ -1,0 +1,26 @@
+.Hero{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.Hero button{
+    background-color: #fff;
+    border: none;
+}
+
+img{
+    width: 16vw;
+}
+
+h3{
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 1.7vw;
+    letter-spacing: 1vw;
+    word-spacing: 1vw;
+    text-align: center;
+}    
