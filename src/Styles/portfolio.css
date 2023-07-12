@@ -1,0 +1,32 @@
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Portfolio h1 {
+    font-size: 3vw;
+}
+
+.portContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px 0 200px 0;
+    width: 90vw;
+    gap: 50px;
+    align-items: center;
+}
+.port{
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.port img{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    z-index: 0;
+    filter: grayscale(1);
+}

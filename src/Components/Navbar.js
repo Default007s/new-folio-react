@@ -6,9 +6,9 @@ export default function Navbar() {
         <div className="Navbar">
             <h1>AJ</h1>
             <ul>
-                <button className='activeNav'>Home</button>
-                <button>Portfolio</button>
-                <button>About Me</button>
+                <button className='activeNav'>Portfolio</button>
+                <button className='activeNav'>Testimonials</button>
+                <button className='activeNav'>About Me</button>
             </ul>
             <div className='btn'>
                 <motion.button 

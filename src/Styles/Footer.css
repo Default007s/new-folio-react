@@ -1,0 +1,38 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10vw;
+    margin-bottom: 0;
+    padding-top: 100px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    border-top: 2px solid #ccc;
+}
+
+.leftFoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 34vw;
+}
+
+.leftFoot h3{
+    font-weight: 300;
+    font-size: 1.3vw;
+}
+
+.leftFoot p{
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #6f6f6f;
+}
+
+.rightFoot{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    line-height: 2vw;
+}

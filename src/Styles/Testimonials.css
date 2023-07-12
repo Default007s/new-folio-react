@@ -1,0 +1,32 @@
+.Testimonial{
+    background-color: #fff;
+    border: 1px solid #000;
+    /* color: #fff; */
+    text-align: center;
+    /* border-radius: 8px; */
+    padding: 20px;
+    height: fit-content;
+}
+
+.Testimonial h2{
+    font-size: 1.3vw;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.Testimonial h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #898989;
+    word-spacing: normal;
+    letter-spacing: normal;
+    margin-bottom: 0;
+}
+
+.Testimonial h4{
+    color: var(--pink);
+}
+
+.Testimonial p{
+    font-size: 1.4vw;
+}

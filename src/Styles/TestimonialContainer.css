@@ -1,0 +1,11 @@
+.TestimonialContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3vw;
+    margin: 5vw 10vw;
+}
+
+.TestimonialContainerDiv h1 {
+    text-align: center;
+    font-size: 3vw;
+}

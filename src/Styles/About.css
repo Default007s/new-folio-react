@@ -1,0 +1,56 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 200px;
+}
+
+.info{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    text-align: left;
+}
+
+.info h1{
+    font-size: 2.5vw;
+}
+
+.info h2{
+    font-size: 1.6vw;
+    line-height: 2vw;
+    padding: 2vw 0;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.info p{
+    font-size: 1.4vw;
+}
+
+.info h3{
+    display: inline;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: left;
+    padding: 15px 60px;
+    font-size: 1.5vw;
+    background-color: var(--pink);
+    color: #fff;
+}
+
+.info div{
+    margin-top: 15px;
+}
+
+#aboutQuote {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 5px;
+}
+
+.aboutImage img{
+    width: 15vw;
+    height: 100%;
+    filter: grayscale(1);
+}
+

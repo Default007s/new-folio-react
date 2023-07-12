@@ -12,15 +12,17 @@
     border: none;
 }
 
-img{
+.Hero button img{
     width: 16vw;
+    border-radius: 30%;
 }
 
-h3{
+.heroContainer h3{
     font-family: 'Teko', sans-serif;
     font-weight: 300;
     font-size: 1.7vw;
     letter-spacing: .7vw;
     word-spacing: 1vw;
     text-align: center;
+    margin-bottom: 10vw;
 }    

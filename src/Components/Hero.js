@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 export default function Hero() {
     return(
-        <>
+        <div className='heroContainer'>
             <div className='Hero'>
                 <button>
                     <motion.img 
@@ -14,7 +14,7 @@ export default function Hero() {
                     </motion.img>
                 </button>
             </div>
-            <h3>Front End <span className=''>Web</span> Developer</h3>
-        </>
+            <h3>Front End Web Developer</h3>
+        </div>
     )
 }
