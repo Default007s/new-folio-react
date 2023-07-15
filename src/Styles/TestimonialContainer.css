@@ -9,3 +9,21 @@
     text-align: center;
     font-size: 3vw;
 }
+
+@media (max-width: 550px) {
+    .TestimonialContainerDiv h1 {
+        font-size: 4vw;
+    }
+    .TestimonialContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 430px) {
+    .TestimonialContainerDiv h1 {
+        font-size: 5vw;
+    }
+    .TestimonialContainer{
+        grid-template-columns: 1fr;
+    }
+}

@@ -4,10 +4,10 @@
     justify-content: space-between;
     margin: 10vw;
     margin-bottom: 0;
-    padding-top: 100px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    border-top: 2px solid #ccc;
+    padding-top: 4.5vw;
+    margin-top: 4.5vw;
+    padding-bottom: 2vw;
+    border-top: .1vw solid #ccc;
 }
 
 .leftFoot{

@@ -13,20 +13,41 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 20px 0 200px 0;
+    margin: 20px 0 9vw 0;
     width: 90vw;
-    gap: 50px;
+    gap: 4vw;
     align-items: center;
 }
 .port{
     display: flex;
-    border: 1px solid #ccc;
 }
 
 .port img{
+    border: .01vw solid #ccc;
     width: 100%;
     height: 40vh;
     position: relative;
     z-index: 0;
     filter: grayscale(1);
+}
+
+@media (max-width: 550px) {
+    .Portfolio h1 {
+        font-size: 4vw;
+    }
+    .port img{
+        height: 30vh;
+        margin: 5vw 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .Portfolio h1 {
+        font-size: 5vw;
+    }
+    .portContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0vw;
+    }    
 }

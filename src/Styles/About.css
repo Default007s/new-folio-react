@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 200px;
+    padding: 10vw;
 }
 
 .info{
@@ -33,19 +33,19 @@
     letter-spacing: 1px;
     font-weight: 300;
     text-align: left;
-    padding: 15px 60px;
+    padding: 1vw 3vw;
     font-size: 1.5vw;
     background-color: var(--pink);
     color: #fff;
 }
 
 .info div{
-    margin-top: 15px;
+    margin-top: 1vw;
 }
 
 #aboutQuote {
     font-family: 'Teko', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: .3vw;
 }
 
 .aboutImage img{
@@ -54,3 +54,44 @@
     filter: grayscale(1);
 }
 
+@media (max-width: 550px) {
+    .info h1{
+        font-size: 4vw;
+    }
+    .info h2{
+        font-size: 2.2vw;
+        line-height: 2.7vw;
+    }
+    .info p{
+        font-size: 1.8vw;
+    }
+    #aboutQuote {
+        letter-spacing: .2vw;
+    }
+    .info h3{
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .info{
+        text-align: center;
+        width: 50vw;
+    }
+    .info h1{
+        font-size: 5vw;
+    }
+    .info h2{
+        font-size: 2.5vw;
+        line-height: 3.2vw;
+    }
+    .info p{
+        font-size: 2.8vw;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .info h3{
+        font-size: 2.3vw;
+    }
+}

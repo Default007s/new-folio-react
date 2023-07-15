@@ -10,7 +10,7 @@ export default function Testimonials({ name, country, rating, statement}) {
     transition = {{ duration:1 }}>
       <h2>{name}</h2>
       <h3>{country}</h3>
-      <h4>{rating}</h4>
+      <h3 className='rating'>{rating}</h3>
       <p>{statement}</p>
     </motion.div>
   )

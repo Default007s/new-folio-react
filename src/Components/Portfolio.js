@@ -15,7 +15,7 @@ export default function Portfolio() {
           <motion.img 
           initial = {{ scale: 1, marginTop: 50,opacity: 0 }} 
           whileInView = {{ margin: 0, opacity: 1, transition:{ duration:1 }}} 
-          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1], border:['none', '1px solid #ccc']}} 
+          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1]}} 
           src={renvo}></motion.img>        
         </div>
         
@@ -23,7 +23,7 @@ export default function Portfolio() {
           <motion.img 
           initial = {{ scale: 1, marginTop: 50,opacity: 0 }} 
           whileInView = {{ margin: 0, opacity: 1, transition:{ duration:1 }}} 
-          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1], border:['none', '1px solid #ccc']}} 
+          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1]}} 
           src={jochum}></motion.img>        
         </div>
         
@@ -31,7 +31,7 @@ export default function Portfolio() {
           <motion.img 
           initial = {{ scale: 1, marginTop: 50,opacity: 0 }} 
           whileInView = {{ margin: 0, opacity: 1, transition:{ duration:1 }}} 
-          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1], border:['none', '1px solid #ccc']}} 
+          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1]}} 
           src={stepholt}></motion.img>        
         </div>
         
@@ -39,7 +39,7 @@ export default function Portfolio() {
           <motion.img 
           initial = {{ scale: 1, marginTop: 50,opacity: 0 }} 
           whileInView = {{ margin: 0, opacity: 1, transition:{ duration:1 }}} 
-          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1], border:['none', '1px solid #ccc']}} 
+          whileHover={{filter:['grayscale(1)', 'grayscale(0)'], scale:[1, 1.1], zIndex:[0, 1]}} 
           src={zain}></motion.img>        
         </div>
       </div>
