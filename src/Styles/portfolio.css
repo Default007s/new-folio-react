@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 550px) {
+    .portContainer{
+        gap: 2vw;
+    }
     .Portfolio h1 {
         font-size: 4vw;
     }
@@ -48,6 +51,6 @@
     .portContainer{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 0vw;
+        gap: 1vw;
     }    
 }

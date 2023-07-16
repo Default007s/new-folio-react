@@ -36,3 +36,44 @@
     letter-spacing: 2px;
     line-height: 2vw;
 }
+
+@media (max-width: 550px) {
+    .Footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftFoot{
+        margin-top: 4vw;
+        width: 50vw;
+        text-align: center;
+        align-items: center;
+    }
+    .leftFoot h3{
+        font-size: 1.8vw;
+    }
+    .rightFoot{
+        flex-direction: row;
+        letter-spacing: .1vw;
+        font-size: 2vw;
+    }
+    .rightFoot a{
+        padding: 0 2vw;
+    }
+    .leftFoot p{
+        font-size: 1.8vw;
+        margin-top: 2vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .leftFoot h3{
+        font-size: 2.3vw;
+    }
+    .rightFoot{
+        font-size: 2.5vw;
+    }
+    .leftFoot p{
+        font-size: 2.3vw;
+    }
+}
