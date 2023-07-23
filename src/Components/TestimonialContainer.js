@@ -8,7 +8,7 @@ function TestimonialContainer() {
         return <Testimonial {...testimonial} randomNumber = {Math.floor(Math.random() * 50)} />
     })
     return (
-        <div className="TestimonialContainerDiv">
+        <div id="testimonialContainer" className="TestimonialContainerDiv">
             <h1>Testimonials</h1>
             <div className="TestimonialContainer">
                 {testimonials}   

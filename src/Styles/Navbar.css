@@ -37,7 +37,6 @@ ul button{
 .btn button{
     cursor: pointer;
     font-size: 1.4vw;
-    font-family: 'Teko', sans-serif;
     background-color: #fff;
     color: var(--pink);
     border: .1vw solid var(--pink);

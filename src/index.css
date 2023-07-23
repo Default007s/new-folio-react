@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root{
   --pink: #f83a53;
   --blue: #0c1631;
@@ -26,6 +30,10 @@ h1{
 }
 
 h2, h3, h4{
+  font-family: 'Teko', sans-serif;
+}
+
+button{
   font-family: 'Teko', sans-serif;
 }
 

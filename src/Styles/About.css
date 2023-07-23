@@ -28,7 +28,8 @@
     font-size: 1.4vw;
 }
 
-.info h3{
+.info button{
+    border: 2px solid var(--pink);
     display: inline;
     letter-spacing: 1px;
     font-weight: 300;
@@ -39,7 +40,7 @@
     color: #fff;
 }
 
-.info div{
+.info a{
     margin-top: 1vw;
 }
 
@@ -68,7 +69,7 @@
     #aboutQuote {
         letter-spacing: .2vw;
     }
-    .info h3{
+    .info button{
         font-size: 1.8vw;
     }
 }
@@ -91,7 +92,7 @@
     .about{
         flex-direction: column-reverse;
     }
-    .info h3{
+    .info button{
         font-size: 2.3vw;
     }
 }

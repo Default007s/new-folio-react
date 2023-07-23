@@ -6,16 +6,19 @@ export default function Navbar() {
         <div className="Navbar">
             <h1>AJ</h1>
             <ul>
-                <button className='activeNav'>Portfolio</button>
-                <button className='activeNav'>Testimonials</button>
-                <button className='activeNav'>About Me</button>
+                <li><button tabindex="-1" className='activeNav'><a href='#portfolio'>Portfolio</a></button></li>  
+                <li><button tabindex="-1" className='activeNav'><a href='#testimonialContainer'>Testimonials</a></button></li>    
+                <li><button tabindex="-1" className='activeNav'><a href='#about'>About Me</a></button></li>   
             </ul>
             <div className='btn'>
-                <motion.button 
-                    whileHover={{backgroundColor:["#fff", "var(--pink)"], color:["var(--pink)", "#fff"], scale:1.2, transition:{duration:.3}}} 
-                    whileTap={{scale:0.9}}>
-                    Get in Touch
-                </motion.button>
+                <a target="_blank" href='https://calendly.com/ahmedjalal' rel="noreferrer">
+                    <motion.button 
+                        whileHover={{backgroundColor:["#fff", "var(--pink)"], color:["var(--pink)", "#fff"], scale:1.2, transition:{duration:.3}}} 
+                        tabindex="-1"
+                        whileTap={{scale:0.9}}>
+                        Get in Touch
+                    </motion.button>
+                </a>
             </div>
         </div>
     )
